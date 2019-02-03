@@ -70,7 +70,6 @@ export default {
                     }.bind(this));
                 },
                 requestAdapter(data) {
-                    console.log('req adapter', data)
                     return {
                         page: data.page,
                         search: data.query.name
@@ -87,9 +86,6 @@ export default {
     },
     components: {
         Loading
-    },
-    beforeCreate(){
-        console.log('before create');
     },
     mounted(){
         Event.$on('vue-tables.loaded', function () {
