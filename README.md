@@ -1,4 +1,9 @@
 # vuetable-serverside
+server-side table using [vue-table-2](https://www.npmjs.com/package/vue-tables-2) and [swapi.co](https://swapi.co/) for API
+
+## Features
+- server-side column filtering (based on name)
+- server-side paging
 
 ## Project setup
 ```
