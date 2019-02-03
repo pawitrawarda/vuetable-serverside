@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Serverside Table Using vue-table-2</h1>
     <vue-data-table></vue-data-table>
   </div>
 </template>
