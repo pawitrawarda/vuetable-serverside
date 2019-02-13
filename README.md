@@ -5,6 +5,9 @@ server-side table using [vue-table-2](https://www.npmjs.com/package/vue-tables-2
 - server-side column filtering (based on name)
 - server-side paging
 
+## Live Demo
+https://vuetable-serverside.herokuapp.com/
+
 ## Project setup
 ```
 npm install
